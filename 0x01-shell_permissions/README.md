@@ -15,3 +15,4 @@ chgrp school hello--change group owner to school for the file owner
 chown vincent:staff *--change owner to vincent and the group owner to staff for all the files and directories in the working directory
 chown -h vincent:staff _hello--change the owner and group owner of hello to vincent and staff respectively
 chown --from=guillaume betty hello--change owner of the file hello to betty if it is currently owned by guillaume
+telnet towel.blinkenlights.nl--play the Star Wars IV episode in the terminal. This is a premade script provided online
