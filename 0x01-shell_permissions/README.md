@@ -12,3 +12,4 @@ chmod --reference=olleh hello--copies the mode of the file olleh to the file hel
 chmod -R +X .--add execute permission to all subdirectories of the current directory for everyone. Regular files should not be changed
 mkdir -m 751 my_dir--create a directory called my_dir with permissions 751 in the working directory. User has all read, write and execute permissions, group has read and execute permissions and others have just execute permission
 chgrp school hello--change group owner to school for the file owner
+chown vincent:staff *--change owner to vincent and the group owner to staff for all the files and directories in the working directory
