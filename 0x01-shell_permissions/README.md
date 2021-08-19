@@ -9,3 +9,4 @@ chmod ugo+x hello--adds execution permission to all users to the file hello
 chmod 007 hello--set permission to the file so that owner and group dont have any permission and other users have all permissions
 chmod 753 hello--set permission so owner has all permissions, group has read and execute permissions and others have write and execute permissions
 chmod --reference=olleh hello--copies the mode of the file olleh to the file hello
+chmod -R +X .--add execute permission to all subdirectories of the current directory for everyone. Regular files should not be changed
