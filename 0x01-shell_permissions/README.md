@@ -13,3 +13,4 @@ chmod -R +X .--add execute permission to all subdirectories of the current direc
 mkdir -m 751 my_dir--create a directory called my_dir with permissions 751 in the working directory. User has all read, write and execute permissions, group has read and execute permissions and others have just execute permission
 chgrp school hello--change group owner to school for the file owner
 chown vincent:staff *--change owner to vincent and the group owner to staff for all the files and directories in the working directory
+chown -h vincent:staff _hello--change the owner and group owner of hello to vincent and staff respectively
