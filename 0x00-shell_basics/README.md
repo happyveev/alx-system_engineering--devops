@@ -11,7 +11,7 @@
 11.ls -la . .. /boot--list all files directories, including hidden files and directories from three seperate directories which are the current directory, the parent of working directory and the boot directory in a long format
 12.file /tmp/iamafile--prints the type of file iamafile
 13.ln -s /bin/ls __ls__ --creates a symbolic link named __ls__ to /bin/ls
-14.
+14.cp -u *.html .. --copies all html files from working to parent directory that does not exist
 15.
 16.
 17.
