@@ -9,4 +9,5 @@
 9.rmdir /tmp/my_first_directory--deletes the directory my_first_directory in the tmp directory
 10.cd - --changes the current directory to the previous one
 11.ls -la . .. /boot--list all files directories, including hidden files and directories from three seperate directories which are the current directory, the parent of working directory and the boot directory in a long format
-12.
+12.file /tmp/iamafile--prints the type of file iamafile
+13. 
